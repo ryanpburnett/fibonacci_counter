@@ -25,8 +25,8 @@ let fib = document.getElementById('fib');
 let render = `
 <table>
     <tr>
-        <th>iteration</th>
-        <th>value</th>
+        <th>Iteration</th>
+        <th>Value</th>
     </tr>`;
 render += mil.map((item, index) => `
 <tr>
