@@ -16,7 +16,7 @@ const fibonacci = (iterations) => {
     return out;
 }
 
-let mil = fibonacci(1000);
+let mil = fibonacci(10000);
 console.log(mil);
 
 // HTML
