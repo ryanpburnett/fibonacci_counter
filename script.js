@@ -9,14 +9,14 @@ const fibonacci = (iterations) => {
         if (out.length === 1) {
             out.push(1);
         }else{
-            out.push(out[(out.length - 1)] + out[out.length - 2]);
+            out.push(BigInt(out[(out.length - 1)]) + BigInt(out[out.length - 2]));
         }
     }
 
     return out;
 }
 
-let mil = fibonacci(100);
+let mil = fibonacci(1000);
 console.log(mil);
 
 // HTML
